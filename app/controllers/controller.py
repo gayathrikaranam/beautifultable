@@ -1,4 +1,4 @@
 class ControllerBase:
-    @staticmethod
-    def base():
-        return True
+       @staticmethod
+        def base():
+            return True

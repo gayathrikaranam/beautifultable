@@ -1,10 +1,17 @@
 .navbar-brand>img {
     height: 85%;
 }
+a.navbar-brand{
+    color: #00dd00 !important;
+}
 
 .navbar{
     margin : 0 !important;
     font-size:120%;
+}
+
+.nav-link{
+    color: #00dd00 !important;
 }
 
 .navbar-fixed-top{
@@ -34,14 +41,19 @@
     }
     .navbar-nav {
         float: none!important;
-        margin-top: 7.5px;
+        margin-top: 8.5px;
     }
     .navbar-nav>li {
         float: none;
+
+    }
+    .table-striped{
+        color: #00dd00;
     }
     .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 10px;
+        color: #00dd00;
     }
     .collapse.in{
         display:block !important;
@@ -56,7 +68,7 @@ canvas {
 
 a {
     text-decoration: none;
-    color: #FFF;
+    color: #00dd00 !important;
 }
 
 a:hover {
@@ -69,6 +81,7 @@ html,body{
     flex-direction: column;
     flex-wrap: nowrap;
     min-height: 100vh;
+    background-color: #1e1e1e;
 }
 
 
@@ -98,7 +111,10 @@ html,body{
     background-color: #000;
     opacity: 0.7;
 }
+.table-striped{
+    color: #00dd00;
 
+}
 #overlay {
     position: absolute;
     top:50%;
@@ -123,6 +139,12 @@ html,body{
 #content, #founder-content, #arpa2inter-content, #origin-content, #aboutus-content, #growth-content, #article1-content, #article2-content, #article3-content, #article4-content{
     padding-top:50px;
     flex-grow: 1;
+    color: #00dd00 !important;
+    background-color: #1e1e1e;
+}
+
+#data>tr>td{
+    color:white;
 }
 
 .title-form {
@@ -141,7 +163,15 @@ html,body{
     text-align: center;
 
 }
-
+.tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    color: white;
+}
+.gaya{
+    color: #00dd00!important;
+}
 #paper_link{
     color:inherit;
 }
